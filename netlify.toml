@@ -3,6 +3,13 @@
   command = "hugo --minify"
   publish = "public"
 
+[[redirects]]
+  from = "/summit"
+  to = "https://powershellsummit.org/"
+  status = 301
+  force = true
+
+
 [build.environment]
   HUGO_VERSION = "0.155.1"
   HUGO_ENVIRONMENT = "production"

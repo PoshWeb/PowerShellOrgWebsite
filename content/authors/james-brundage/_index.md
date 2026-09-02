@@ -21,6 +21,7 @@ These modules may change your life:
 * [ugit](https://github.com/StartAutomating/ugit) - Updated Git in PowerShell
 * [Posh](https://github.com/StartAutomating/posh) - PowerShell made Posh
 * [obs-powershell](https://github.com/StartAutomating/obs-powershell) - Script Your Streams
+* [RoughDraft](https://github.com/StartAutomating/RoughDraft) - Multimedia toolkit for PowerShell (using ffmpeg)
 * [EZout](https://github.com/StartAutomating/EZOut) - Easy Types and Format files
 * [Turtle](https://github.com/PoshWeb/Turtle) - Turtle Graphics in PowerShell
 * [Reptile](https://github.com/PoshWeb/Reptile) - Scaley Simple Safe Web REPLs

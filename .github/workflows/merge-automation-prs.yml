@@ -34,7 +34,7 @@ jobs:
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           pull_request=$(gh pr view "$HEAD_BRANCH" --repo "$GITHUB_REPOSITORY" --json number,headRefOid,author,baseRefName,state)
-          test "$(jq -r '.author.login' <<<"$pull_request")" = "${APP_SLUG}[bot]"
+          test "$(jq -r '.author.login' <<<"$pull_request")" = "app/${APP_SLUG}"
           test "$(jq -r '.baseRefName' <<<"$pull_request")" = main
           test "$(jq -r '.state' <<<"$pull_request")" = OPEN
           test "$(jq -r '.headRefOid' <<<"$pull_request")" = "$HEAD_SHA"
@@ -42,4 +42,5 @@ jobs:
             --repo "$GITHUB_REPOSITORY" \
             --squash \
             --delete-branch \
+            --admin \
             --match-head-commit "$HEAD_SHA"

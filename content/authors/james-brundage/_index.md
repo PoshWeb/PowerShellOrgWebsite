@@ -1,6 +1,7 @@
 ---
 title: "James Brundage"
 tagline: "Jack of All Trades, Master of PowerShell"
+avatar: "https://startautomating.com/Assets/StartAutomating-Icon.png"
 website: "https://MrPowerShell.com"
 github: "https://github.com/StartAutomating"
 linkedin: "https://www.linkedin.com/in/jamesbrundage/"
